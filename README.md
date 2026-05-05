@@ -1,5 +1,5 @@
 
-📌 Gestão de Lotações – Script Tampermonkey para o EPROC
+📌 Gestão de Lotações (SUPORTE) – Script Tampermonkey para o EPROC
 O Gestão de Lotações é um script para Tampermonkey que reúne, em um só lugar, diversas ferramentas para facilitar a administração de lotações de usuários no sistema EPROC.
 Ele foi desenvolvido para tornar as tarefas de busca, inclusão e exclusão de lotações mais rápidas, intuitivas e eficientes.
 
