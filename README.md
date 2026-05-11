@@ -1,84 +1,72 @@
+# Gestão de Lotações (SUPORTE) — Script Tampermonkey para o eProc
 
-📌 Gestão de Lotações (SUPORTE) – Script Tampermonkey para o EPROC
-O Gestão de Lotações é um script para Tampermonkey que reúne, em um só lugar, diversas ferramentas para facilitar a administração de lotações de usuários no sistema EPROC.
-Ele foi desenvolvido para tornar as tarefas de busca, inclusão e exclusão de lotações mais rápidas, intuitivas e eficientes.
+Script para Tampermonkey que reúne, em um só lugar, diversas ferramentas para facilitar a administração de lotações de usuários no sistema eProc. Desenvolvido para tornar as tarefas de busca, inclusão e exclusão de lotações mais rápidas, intuitivas e eficientes.
 
-✨ Principais funcionalidades
-🔍 Busca de lotações (em todas as páginas)
+---
 
-Campo de busca por nome da lotação, disponível diretamente na barra superior do sistema
-Não é necessário saber o código da lotação
-Busca inteligente por múltiplas palavras
-Ignora acentos e diferença entre maiúsculas e minúsculas
-Botão de atalho para alternar rapidamente para a lotação Administrador do Sistema
+## Pré-requisitos
 
+### 1. Instalar o Tampermonkey
 
-➕ Inclusão de lotações em lote (tela de usuário)
+Abra a loja de extensões do seu navegador (Chrome, Edge ou Firefox), procure por **Tampermonkey** e instale a extensão. Após instalar, confirme que o ícone do Tampermonkey apareceu próximo à barra de endereço.
 
-Seleção prévia do tipo de perfil antes da inclusão
-Lista completa de lotações disponíveis
-Campo de filtro para facilitar a localização
-Seleção múltipla com opção de marcar ou desmarcar tudo
-Contador em tempo real das lotações selecionadas
+### 2. Ativar o modo desenvolvedor no navegador
 
+Isso é necessário para o Tampermonkey rodar o script sem bloqueio.
 
-➖ Exclusão de lotações em lote (tela de usuário)
+- Vá em **Configurações → Extensões**
+- No canto superior direito, ative **Modo do desenvolvedor**
 
-Lista das lotações vinculadas ao usuário, com indicação do perfil
-Filtro por nome da lotação e por tipo de perfil
-Barra de progresso durante a exclusão, mostrando qual lotação está sendo removida
-Histórico das lotações já excluídas durante a sessão
+### 3. Configurações do Tampermonkey
 
+- Clique no ícone do Tampermonkey → **Painel** → **Configurações**
+- Confirme que estas opções estão ativas:
+  - Permitir scripts de usuário
+  - Permitir acesso a abas
+  - Permitir requisições remotas
+  - Modo estrito desativado *(se existir no seu navegador)*
 
-⚙️ Instalação
+---
 
-Instale a extensão Tampermonkey no seu navegador
-Clique no link abaixo para instalar o script:
-👉 Instalar script
-O Tampermonkey abrirá uma tela de confirmação
-→ Clique em Instalar
+## Instalação do script
 
+1. Instale a extensão Tampermonkey no seu navegador *(veja os pré-requisitos acima)*
+2. Clique no link abaixo para instalar o script:
 
-✅ Requisitos
+👉 [Instalar script](https://raw.githubusercontent.com/rsalvessap/Gestao-de-Lotacoes-EPROC/main/eproc-busca-lotacao.user.js)
 
-Navegador Chrome, Firefox ou Edge
-Extensão Tampermonkey instalada
-Acesso ao sistema EPROC (*.jus.br)Gestão de Lotações - EPROC
-Script Tampermonkey que unifica ferramentas de gestão de lotações no sistema EPROC, permitindo busca por nome, inclusão em lote e exclusão em lote de lotações de usuários.
+3. O Tampermonkey abrirá uma tela de confirmação → clique em **Instalar**
 
-Funcionalidades
-Busca de lotação (todas as páginas)
+---
 
-Campo de busca por nome diretamente na barra superior do sistema, sem precisar conhecer o código da lotação
-Busca inteligente por múltiplas palavras, ignorando acentos e maiúsculas/minúsculas
-Botão de atalho para alternar rapidamente para a lotação Administrador do Sistema
+## Funcionalidades
 
-Inclusão em lote (tela de usuário)
+### 🔍 Busca de lotações *(todas as páginas)*
 
-Seleção do tipo de perfil antes da inclusão
-Lista completa de lotações disponíveis com campo de filtro
-Seleção múltipla com marcação/desmarcação em lote
-Contador de lotações selecionadas em tempo real
+- Campo de busca por nome da lotação disponível diretamente na barra superior do sistema
+- Não é necessário saber o código da lotação
+- Busca inteligente por múltiplas palavras, ignorando acentos e maiúsculas/minúsculas
+- Histórico de navegação entre lotações com botões de voltar e avançar
+- Botão de atalho para alternar rapidamente para a lotação **Administrador do Sistema**
 
-Exclusão em lote (tela de usuário)
+### ➕ Inclusão de lotações em lote *(tela de usuário)*
 
-Lista de lotações vinculadas ao usuário com perfil de cada uma
-Filtro por nome e por tipo de perfil
-Barra de progresso durante a exclusão com indicação de qual lotação está sendo removida
-Histórico das lotações já excluídas na sessão
+- Seleção prévia do tipo de perfil antes da inclusão
+- Lista completa de lotações disponíveis com campo de filtro
+- Seleção múltipla com opção de marcar ou desmarcar tudo
+- Contador em tempo real das lotações selecionadas
 
+### ➖ Exclusão de lotações em lote *(tela de usuário)*
 
-Instalação
+- Lista das lotações vinculadas ao usuário, com indicação do perfil
+- Filtro por nome da lotação e por tipo de perfil
+- Barra de progresso durante a exclusão, mostrando qual lotação está sendo removida
+- Histórico das lotações já excluídas durante a sessão
 
-Instale a extensão Tampermonkey no seu navegador
-Clique no link abaixo para instalar o script:
+---
 
-👉  [Instalar script](https://raw.githubusercontent.com/rsalvessap/eproc-busca-lotacao/main/eproc-busca-lotacao.user.js)
+## Requisitos
 
-O Tampermonkey vai abrir uma tela de confirmação. Clique em Instalar.
-
-
-Requisitos
-
-Navegador Chrome, Firefox ou Edge com a extensão Tampermonkey instalada
-Acesso ao sistema EPROC (*.jus.br)
+- Navegador Chrome, Firefox ou Edge
+- Extensão Tampermonkey instalada
+- Acesso ao sistema eProc (`*.jus.br`)
